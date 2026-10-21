@@ -1,14 +1,9 @@
+
 #include <iostream>
-namespace erarslan {
-  void printName()
-  {
-    std::cout << "erarslan.orcun\n";
-  }
-}
 
 int main()
 {
-  erarslan::printName();
+  std::cout << "erarslan.orcun\n";
   return 0;
 }
 
